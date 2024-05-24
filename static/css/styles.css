@@ -14,3 +14,20 @@ h1::first-letter { /* change the first letter color of all h1 tags */
 p {
 	padding: 10px;
 }
+
+a { /* customizing the a tag appearance */
+    color: #3d82ad; /* change the color of the link */
+}
+
+hr { /* make the hr, separator, tag less ugly */
+    border: none;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #868686;
+}
+
+img {
+    width: 95%; /* this controls the size. without this, the images will look bad */
+    margin: 10px; /* im not sure what exactly this does. but, without this, those images from CPM would be very close. */
+    border: 5px solid; /* this adds a 5px thick white (by default) border, around the image */
+}
