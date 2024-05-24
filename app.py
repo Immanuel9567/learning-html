@@ -7,5 +7,9 @@ app.config["TEMPLATES_AUTO_RELOAD"] = True
 def about_page():
     return render_template("about.html")
 
+@app.route("/gallery")
+def gallery_page():
+    return render_template("gallery.html")
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
