@@ -11,5 +11,9 @@ def about_page():
 def gallery_page():
     return render_template("gallery.html")
 
+@app.route("/mydevices")
+def devices_page():
+    return render_template("mydevices.html")
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
